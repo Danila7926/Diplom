@@ -166,22 +166,22 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="VSE_2YfoTte9MoNVyKtl-1" value="level meropriatia" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="100" width="140" height="90" as="geometry" />
+          <mxGeometry x="90" y="100" width="140" height="120" as="geometry" />
         </mxCell>
         <mxCell id="VSE_2YfoTte9MoNVyKtl-2" value="unikalni yroven meropriytia int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-1">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VSE_2YfoTte9MoNVyKtl-3" value="naimenovanie yrovnia meropriytia varchar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-1">
-          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        <mxCell id="VSE_2YfoTte9MoNVyKtl-3" value="naimenovanie yrovnia meropriytia varchar(255)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-1">
+          <mxGeometry y="60" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VSE_2YfoTte9MoNVyKtl-5" value="Napravlenie" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="280" width="140" height="90" as="geometry" />
+          <mxGeometry x="90" y="280" width="140" height="110" as="geometry" />
         </mxCell>
         <mxCell id="VSE_2YfoTte9MoNVyKtl-6" value="unikalni nomer napravlenia int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-5">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VSE_2YfoTte9MoNVyKtl-7" value="naimenovanie napravlenia varchar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-5">
-          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        <mxCell id="VSE_2YfoTte9MoNVyKtl-7" value="naimenovanie napravlenia varchar(255)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-5">
+          <mxGeometry y="60" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="VSE_2YfoTte9MoNVyKtl-9" value="status" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="430" width="140" height="90" as="geometry" />
@@ -189,11 +189,11 @@
         <mxCell id="VSE_2YfoTte9MoNVyKtl-10" value="unikalni nomer statusa int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-9">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VSE_2YfoTte9MoNVyKtl-11" value="naimenovanie statusa varchar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-9">
+        <mxCell id="VSE_2YfoTte9MoNVyKtl-11" value="naimenovanie statusa varchar(255)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-9">
           <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VSE_2YfoTte9MoNVyKtl-13" value="meropriatia" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="85" width="140" height="380" as="geometry" />
+          <mxGeometry x="370" y="85" width="140" height="440" as="geometry" />
         </mxCell>
         <mxCell id="VSE_2YfoTte9MoNVyKtl-14" value="unikalni nomer meropriytia int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-13">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
@@ -204,34 +204,34 @@
         <mxCell id="VSE_2YfoTte9MoNVyKtl-16" value="data oconchania meropriatia&amp;nbsp; &amp;nbsp;data" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-13">
           <mxGeometry y="120" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VSE_2YfoTte9MoNVyKtl-17" value="naimenovania meropriytia varchar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-13">
-          <mxGeometry y="150" width="140" height="30" as="geometry" />
+        <mxCell id="VSE_2YfoTte9MoNVyKtl-17" value="naimenovania meropriytia varchar(255)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-13">
+          <mxGeometry y="150" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="VSE_2YfoTte9MoNVyKtl-18" value="ssilka na prilojenia(info o meropriatii) varchar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-13">
-          <mxGeometry y="180" width="140" height="30" as="geometry" />
+        <mxCell id="VSE_2YfoTte9MoNVyKtl-18" value="ssilka na prilojenia(info o meropriatii) varchar(255)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-13">
+          <mxGeometry y="200" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VSE_2YfoTte9MoNVyKtl-19" value="yroven meropriytia varchar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-13">
-          <mxGeometry y="210" width="140" height="30" as="geometry" />
+        <mxCell id="VSE_2YfoTte9MoNVyKtl-19" value="yroven meropriytia varchar(255)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-13">
+          <mxGeometry y="260" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VSE_2YfoTte9MoNVyKtl-20" value="napravlenia po kotoromy provoditsa meropriatie varchar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-13">
-          <mxGeometry y="240" width="140" height="50" as="geometry" />
+        <mxCell id="VSE_2YfoTte9MoNVyKtl-20" value="napravlenia po kotoromy provoditsa meropriatie varchar(255)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-13">
+          <mxGeometry y="290" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VSE_2YfoTte9MoNVyKtl-21" value="vizitnai kartochka varchar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-13">
-          <mxGeometry y="290" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="VSE_2YfoTte9MoNVyKtl-22" value="status varchar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-13">
-          <mxGeometry y="320" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="VSE_2YfoTte9MoNVyKtl-23" value="reiting meropriytia int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-13">
+        <mxCell id="VSE_2YfoTte9MoNVyKtl-21" value="vizitnai kartochka varchar(255)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-13">
           <mxGeometry y="350" width="140" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="VSE_2YfoTte9MoNVyKtl-22" value="status varchar(255)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-13">
+          <mxGeometry y="380" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VSE_2YfoTte9MoNVyKtl-23" value="reiting meropriytia int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-13">
+          <mxGeometry y="410" width="140" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="VSE_2YfoTte9MoNVyKtl-24" value="galeria" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="470" width="140" height="120" as="geometry" />
+          <mxGeometry x="430" y="560" width="140" height="120" as="geometry" />
         </mxCell>
         <mxCell id="VSE_2YfoTte9MoNVyKtl-25" value="unikalni nomer fotogafii int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-24">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VSE_2YfoTte9MoNVyKtl-26" value="foto varchar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-24">
+        <mxCell id="VSE_2YfoTte9MoNVyKtl-26" value="foto varchar(255)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-24">
           <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VSE_2YfoTte9MoNVyKtl-27" value="nomer polzovately int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-24">
@@ -243,28 +243,28 @@
         <mxCell id="VSE_2YfoTte9MoNVyKtl-29" value="unikalni nomer polzovately int&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-28">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VSE_2YfoTte9MoNVyKtl-30" value="fio vaarchar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-28">
+        <mxCell id="VSE_2YfoTte9MoNVyKtl-30" value="fio varchar(255)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-28">
           <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VSE_2YfoTte9MoNVyKtl-31" value="email varchar&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-28">
+        <mxCell id="VSE_2YfoTte9MoNVyKtl-31" value="email varchar(255)&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-28">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VSE_2YfoTte9MoNVyKtl-32" value="nik v telegram varchar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-28">
+        <mxCell id="VSE_2YfoTte9MoNVyKtl-32" value="nik v telegram varchar(255)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-28">
           <mxGeometry y="120" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VSE_2YfoTte9MoNVyKtl-33" value="telefon varchar&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-28">
+        <mxCell id="VSE_2YfoTte9MoNVyKtl-33" value="telefon varchar(255)&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-28">
           <mxGeometry y="150" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VSE_2YfoTte9MoNVyKtl-34" value="rol int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-28">
           <mxGeometry y="180" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VSE_2YfoTte9MoNVyKtl-35" value="specialnost varchar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-28">
+        <mxCell id="VSE_2YfoTte9MoNVyKtl-35" value="specialnost varchar(255)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-28">
           <mxGeometry y="210" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VSE_2YfoTte9MoNVyKtl-36" value="grup varchar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-28">
+        <mxCell id="VSE_2YfoTte9MoNVyKtl-36" value="grup varchar(255)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-28">
           <mxGeometry y="240" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VSE_2YfoTte9MoNVyKtl-55" value="korpus varchar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-28">
+        <mxCell id="VSE_2YfoTte9MoNVyKtl-55" value="korpus varchar(255)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-28">
           <mxGeometry y="270" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VSE_2YfoTte9MoNVyKtl-37" value="zayvki na ychastie v meropriatii" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -279,10 +279,10 @@
         <mxCell id="VSE_2YfoTte9MoNVyKtl-40" value="nomer polzovately int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-37">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VSE_2YfoTte9MoNVyKtl-41" value="otziv varchar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-37">
+        <mxCell id="VSE_2YfoTte9MoNVyKtl-41" value="otziv varchar(255)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-37">
           <mxGeometry y="120" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VSE_2YfoTte9MoNVyKtl-42" value="foto varchar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-37">
+        <mxCell id="VSE_2YfoTte9MoNVyKtl-42" value="foto varchar(255)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-37">
           <mxGeometry y="150" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VSE_2YfoTte9MoNVyKtl-43" value="roli" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -291,17 +291,17 @@
         <mxCell id="VSE_2YfoTte9MoNVyKtl-44" value="unikalni nomer roli int&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-43">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VSE_2YfoTte9MoNVyKtl-45" value="namenovanie roli varchar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-43">
+        <mxCell id="VSE_2YfoTte9MoNVyKtl-45" value="namenovanie roli varchar(255)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-43">
           <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VSE_2YfoTte9MoNVyKtl-47" value="specialnosti" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="870" y="249" width="140" height="90" as="geometry" />
+          <mxGeometry x="870" y="249" width="140" height="110" as="geometry" />
         </mxCell>
         <mxCell id="VSE_2YfoTte9MoNVyKtl-48" value="unikalni nomer specialnosti int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-47">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VSE_2YfoTte9MoNVyKtl-49" value="naimenovanie specialnosti varchar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-47">
-          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        <mxCell id="VSE_2YfoTte9MoNVyKtl-49" value="naimenovanie specialnosti varchar(255)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-47">
+          <mxGeometry y="60" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="VSE_2YfoTte9MoNVyKtl-51" value="grup" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="880" y="420" width="140" height="90" as="geometry" />
@@ -309,7 +309,7 @@
         <mxCell id="VSE_2YfoTte9MoNVyKtl-52" value="unikalni nomer grup int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-51">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VSE_2YfoTte9MoNVyKtl-53" value="naimenovanie grup varchar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-51">
+        <mxCell id="VSE_2YfoTte9MoNVyKtl-53" value="naimenovanie grup varchar(255)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-51">
           <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VSE_2YfoTte9MoNVyKtl-56" value="korpus" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -318,7 +318,7 @@
         <mxCell id="VSE_2YfoTte9MoNVyKtl-57" value="unikalni nomer korpusa int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-56">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VSE_2YfoTte9MoNVyKtl-58" value="naimenovanie korpus varchar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-56">
+        <mxCell id="VSE_2YfoTte9MoNVyKtl-58" value="naimenovanie korpus varchar(255)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VSE_2YfoTte9MoNVyKtl-56">
           <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VSE_2YfoTte9MoNVyKtl-60" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;entryX=1.007;entryY=0.733;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VSE_2YfoTte9MoNVyKtl-19" target="VSE_2YfoTte9MoNVyKtl-2">
